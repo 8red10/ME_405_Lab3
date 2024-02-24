@@ -10,10 +10,10 @@ February 20, 2024
 
 ### Description
 This lab was beneficial in increasing our understanding in many areas. We 
-implemented closed-loop control and visualized the response in an interactive
-GUI. The closed-loop control utilized a proportional controller to sense a 
-motor encoder reeader and acutate a motor. The GUI utilized Tkinter to interact
-with the user and plot data.
+implemented closed-loop proportional control and visualized the response in an 
+interactive GUI. The closed-loop control utilized a proportional controller to 
+sense a motor encoder reeader and acutate a motor. The GUI utilized Tkinter to 
+interact with the user and plot data.
 
 First, we designed a proportional controller class to provide closed-loop control 
 for a DC motor and connected encoder reader. This class was written such that it 

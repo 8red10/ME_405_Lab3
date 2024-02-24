@@ -39,7 +39,7 @@ DEFAULT_KP = 0.01
 # 
 #   check the lab 3 requirements
 #
-#   update / commit all git repositories
+#   update / commit all git repositories --- DONE
 #
 #   put motor and encoder files into lab3/src
 
