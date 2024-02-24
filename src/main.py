@@ -65,7 +65,7 @@ def main():
                                                       data_points=DATA_POINTS
                                                       )
         # initialize the destination setpoint for the proportional controller
-        setpoint = 10000
+        setpoint = 8150#10000
         # indicate done with initializations
         print('Done initializing.')
 

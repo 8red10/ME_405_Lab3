@@ -54,9 +54,9 @@ Motor wire connections:
 
 
 ### Results
-For all step responses, the target set point (aka motor position) was 10,000.
+For all step responses, the target set point (aka motor position) was 8,150.
 Various control gains were tested and the optimal control gain was 
-experimentally found to be 0.06 when there was no load and 0.05 when the 
+experimentally found to be 0.07 when there was no load and 0.05 when the 
 flywheel was attached. 
 
 The closed-loop controller reads data from the motor encoder and actuates the 
@@ -70,17 +70,17 @@ gain value of 1 or greater caused an overdamped response.
 As depicted in figure 3, as the control gain increased from 0.01 to 0.06, the 
 step response became more optimal. However, as the control gain increased beyond 
 0.05, the resulting set point (position) of the motor increased past the target
-of 10,000. As the control gain increased even further, the step response became
+of 8,150. As the control gain increased even further, the step response became
 overdamped. This overdamped response is illustrated in figure 2 by the green 
 line represnting a control gain of 2.0.
 
 
-![title here](./noload00.png)
+![title here](./noload01.png)
 
-Figure 1. Step response for a motor with no load and a control gain of 0.06.
+Figure 1. Step response for a motor with no load and a control gain of 0.07.
 
 
-![title here](./flywheel00.png)
+![title here](./flywheel03.png)
 
 Figure 2. Step responses for the motor with a flywheel load and control gains
 resulting in underdamped, overdamped, and optimal responses. The orange line 
@@ -90,7 +90,7 @@ line illustrates the best response obtained. This optimal response was due
 to a control gain of 0.05.
 
 
-![title here](./flywheel01.png)
+![title here](./flywheel02.png)
 
 Figure 3. Step responses illustrating the process of finding the optimal 
 control gain for the motor with the flywheel. From the bottom up: the blue 
