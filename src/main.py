@@ -46,6 +46,8 @@ def main():
     sensor to detect motor position. The motor uses pins PC1 (enable pin), PA0 (motor input 
     1), and PA1 (motor input 2) with Timer 5 to control the PWM. The encoder uses PC6 and
     PC7 with Timer 8 to read position. 
+    @param      None.
+    @returns    None.
     '''
     # handle keyboard interrupts
     try:
