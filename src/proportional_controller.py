@@ -94,7 +94,8 @@ class ProportionalController:
         Sets the queue length variable to to the number of data points desired in each
         queue. This is essentially the same thing as the queues will only hold 
         queue_length number of data points.
-        @param      None.
+        @param      num_data_points -> An integer representing the number of data points
+                    the queues should hold. 
         @returns    None.
         '''
         # sets the queue length variable
