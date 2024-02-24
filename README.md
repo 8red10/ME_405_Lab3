@@ -55,9 +55,10 @@ Motor wire connections:
 
 ### Results
 For all step responses, the target set point (aka motor position) was 8,150.
-Various control gains were tested and the optimal control gain was 
-experimentally found to be 0.07 when there was no load and 0.05 when the 
-flywheel was attached. 
+After some testing with the different set points, this was the value that most
+closely obtained one complete rotation. Various control gains were tested and 
+the optimal control gain was experimentally found to be 0.07 when there was no 
+load and 0.05 when the flywheel was attached. 
 
 The closed-loop controller reads data from the motor encoder and actuates the 
 DC motor from the provided ME 405 lab kit. 
