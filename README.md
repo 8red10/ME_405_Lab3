@@ -16,19 +16,19 @@ motor encoder reeader and acutate a motor. The GUI utilized Tkinter to interact
 with the user and plot data.
 
 First, we designed a proportional controller class to provide closed-loop control 
-for a DC motor and connected encoder reader. This class was written such that it could
-be applied to a generic closed-loop control situation with arbitrary acutators 
-and sensors. These are easily implemented by passing the proportional controller
-class the respective actuate and sense functions. This class utilized queues to 
-keep track of position and time data if this functionality is desired. 
+for a DC motor and connected encoder reader. This class was written such that it 
+could be applied to a generic closed-loop control situation with arbitrary 
+acutators and sensors. These are easily implemented by passing the proportional 
+controller class the respective actuate and sense functions. This class utilized 
+queues to keep track of position and time data if this functionality is desired. 
 
-Next, we 
-created a main.py file to apply this closed-loop control to the DC motor in our 
-lab kit with user defined control gain values (in the documentation this value 
-is commonly referred to as the Kp value). 
+Next, we created a main.py file to apply this closed-loop control to the DC motor 
+in our lab kit with user defined control gain values (in the documentation this 
+value is commonly referred to as the Kp value). 
 
 Lastly, we implemented a GUI for users to interact with and perform closed-loop
 control tests with desired control gain values.
+
 
 ### Hardware
 The hardware provided in the ME 405 lab kit should be constructed to satisfy the 
