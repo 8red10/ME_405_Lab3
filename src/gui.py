@@ -41,7 +41,9 @@ DEFAULT_KP = 0.01
 #
 #   update / commit all git repositories --- DONE
 #
-#   put motor and encoder files into lab3/src
+#   put motor and encoder files into lab3/src --- DONE
+#
+#   check about global variable doxygen documentation 
 
 def get_data(kp):
     '''!
