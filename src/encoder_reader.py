@@ -49,8 +49,8 @@ class Encoder:
         self.ch2_pin = ch2_pin
         # initialize the timer and associated channels
         self.timer = pyb.Timer(timer_num, prescaler=0, period=65535) # max period for timers 4 and 8
-        self.ch1 = self.timer.channel(1, pyb.Timer.ENC_A, pin=self.ch1_pin)
-        self.ch2 = self.timer.channel(2, pyb.Timer.ENC_B, pin=self.ch2_pin)
+        self.ch1 = self.timer.channel(1, pyb.Timer.ENC_A, pin=self.ch1_pin) # should be in ENC_AB mode
+        self.ch2 = self.timer.channel(2, pyb.Timer.ENC_B, pin=self.ch2_pin) # should be in ENC_AB mode
         # intialize the position variable to be zero
         self.position = 0
         # intialize previous count variables
